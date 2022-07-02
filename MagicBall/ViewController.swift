@@ -2,6 +2,8 @@
 //  ViewController.swift
 //  MagicBall
 //
+// color palette: main - 0x1F4690, Label - 0x
+//
 //  Created by Алексей Гуляев on 02.07.2022.
 //
 
