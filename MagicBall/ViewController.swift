@@ -11,6 +11,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let answersImageArray = [#imageLiteral(resourceName: "ball1"), #imageLiteral(resourceName: "ball2"), #imageLiteral(resourceName: "ball3"), #imageLiteral(resourceName: "ball4"), #imageLiteral(resourceName: "ball5"),]
+    
     @IBOutlet weak var magicBallImage: UIImageView!
     @IBOutlet weak var userQuestionTextField: UITextField!
     
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func askPressedButton(_ sender: UIButton) {
+        magicBallImage.image = answersImageArray.randomElement()
     }
     
 }

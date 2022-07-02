@@ -46,8 +46,8 @@
                                     <constraint firstAttribute="height" constant="34" id="ELP-zO-NPz"/>
                                     <constraint firstAttribute="width" constant="270" id="uTJ-3I-Jo0"/>
                                 </constraints>
-                                <color key="textColor" red="1" green="0.89803921568627454" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWH-Da-dDl">
