@@ -61,6 +61,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Ask">
                                     <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="45"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="askPressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENy-Zi-qNs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -76,6 +79,10 @@
                             <constraint firstItem="Y0a-rb-Lq5" firstAttribute="top" secondItem="tqZ-Av-7Ob" secondAttribute="bottom" constant="86" id="mMz-Ce-nOA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="magicBallImage" destination="Y0a-rb-Lq5" id="U4T-f6-UCf"/>
+                        <outlet property="userQuestionTextField" destination="tqZ-Av-7Ob" id="Reb-aF-yFW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,12 +10,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var magicBallImage: UIImageView!
+    @IBOutlet weak var userQuestionTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func askPressedButton(_ sender: UIButton) {
+    }
+    
 }
 
